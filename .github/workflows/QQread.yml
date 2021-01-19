@@ -34,7 +34,7 @@ jobs:
       - name: '运行 【QQ阅读APP】'
         if: env.QQREADAPP_HEADER
         run: |
-          node Task/QQread.js
+          node QQread.js
         env:
           
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
