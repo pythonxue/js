@@ -30,12 +30,10 @@ jobs:
       - name: npm install
         if: env.QQREADAPP_HEADER
         run: |
-          cd ~
           npm install
       - name: '运行 【QQ阅读APP】'
         if: env.QQREADAPP_HEADER
         run: |
-          cd ~
           node QQread.js
         env:
           
