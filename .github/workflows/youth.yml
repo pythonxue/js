@@ -2,7 +2,7 @@ name: 中青
 
 on:
   schedule:
-    - cron: '*/30 * * * * '
+    - cron: '*/7 */2 * * * '
   watch:
     types: [started]
 jobs:
