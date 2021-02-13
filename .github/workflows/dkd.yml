@@ -37,7 +37,7 @@ jobs:
           npm install
       - name: '运行 【多看点】'
         run: |
-          node jrtt.js
+          node duokandian.js
         env:
           duokandianbodyVal: ${{ secrets.DKD_duokandianBODY }}
           duokandianvideobodyVal: ${{ secrets.DKD_duokandianvideoBODY }}
