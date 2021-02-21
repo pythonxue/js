@@ -36,7 +36,7 @@ cookies2 = {
     'YOUTH_STARTBODY': 'access=WIFI&app_version=2.0.0&channel=80000000&channel_code=80000000&cid=80000000&client_version=2.0.0&device_brand=iphone&device_id=50167367&device_model=iPhone&device_platform=iphone&device_type=iphone&isnew=1&mobile_type=2&net_type=1&openudid=55d1fdb3b3b30c4f495a2ee4d71d78a9&os_version=12.4.7&phone_code=55d1fdb3b3b30c4f495a2ee4d71d78a9&phone_network=WIFI&platform=3&request_time=1613741955&resolution=828x1472&sm_device_id=20210201220554e0a9043b09f4434c942ae1c76b87e605019d77c2b86d0559&szlm_ddid=D2rXe0tqhPQS8Ke7GbQxtv09xbouYGGV9Jt6UZzFTN47wXdc&time=1613741955&token=86420168490121e3fd2906ae5f7d01ff&uid=47965996&uuid=55d1fdb3b3b30c4f495a2ee4d71d78a9'
 }
 
-COOKIELIST = [cookies1,]  # 多账号准备
+COOKIELIST = [cookies1,cookies2,]  # 多账号准备
 
 # ac读取环境变量
 if "YOUTH_HEADER1" in os.environ:
