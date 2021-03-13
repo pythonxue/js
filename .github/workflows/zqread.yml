@@ -27,7 +27,7 @@ jobs:
           npm install
       - name: '运行 【中青阅读】'
         run: |
-          node Youth_read.js
+          node Youth_Read.js
         env:
           PUSH_KEY: ${{ secrets.PUSH_KEY }}
           BARK_PUSH: ${{ secrets.BARK_PUSH }}
