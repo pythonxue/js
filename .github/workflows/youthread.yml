@@ -1,4 +1,4 @@
-name: 电视家
+name: 中青阅读
 
 on:
   workflow_dispatch:
